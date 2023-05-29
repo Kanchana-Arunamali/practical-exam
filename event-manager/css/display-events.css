@@ -1,0 +1,104 @@
+/*
+ * Include Event Manager Plugin CSS For Frontend Events Display
+*/  
+
+.event-block {
+    width: 50%;
+    display: inline-block;
+    padding: 0 5px;
+    box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+    margin-bottom: 10px;
+}
+.innerwrapper {
+    padding: 10px;  
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	width: 100%;
+}
+.event-block .innerwrapper h2 {
+    margin: 10px 0;
+    font-size: 17px;
+    line-height: 23px;
+}
+.event-block {
+    width: 50%;
+    display: inline-block;
+    padding: 0 10px;
+    box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+    margin-bottom: 20px;
+}
+.event-block h2 a {
+    color: #405e77;
+    text-decoration: none;
+	transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in; 
+	-webkit-transition: all 0.3s ease-in; 
+}
+.event-block h2 a:hover,
+.event-block h2 a:active{
+	opacity: 0.8;
+	color: #405e77;
+}
+.event-block h2 a:hover{
+	color: #222;
+}
+.event-block .innerwrapper p {
+    margin-bottom: 15px;
+}
+.event-block a.read-more.button {
+    color: #fff;
+    text-decoration: none;
+    background-color: #405e77;
+    padding: 8px 11px;
+    box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+    border-radius: 4px;
+	-moz-border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+    font-size: 14px;
+    display: inline-block;
+	transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in; 
+	-webkit-transition: all 0.3s ease-in; 
+}
+.event-block a.read-more.button:hover{
+	opacity: 0.8;
+}
+.event-thumb img {
+    width: 100%;
+}
+.event-nav-links a {
+    background-color: #405E77;
+    color: #fff;
+    padding: 7px 12px;
+    text-decoration: none;
+} 
+.event-nav-links a:hover,
+.event-nav-links a:visited,
+.event-nav-links a:active,
+.event-nav-links span.page-numbers.current{
+	opacity: 0.8;
+    background-color: #405E77;
+    color: #fff !important; 
+    padding: 7px 12px;
+}
+.event-nav-links {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+@media screen and (max-width:767px){
+.event-block {
+    width: 100%;
+    padding: 0;
+}
+.event-nav-links {
+    padding-left: 0;
+}
+}
